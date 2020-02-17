@@ -1,20 +1,174 @@
-
+/*all values unset*/
+.module {
+  all: unset;
+}
+/*
+*{
+border-color: red !important;
+border-style: solid !important;
+border-width: 3px !important;
+}
+*/
 
 body{
 margin:0px;
-widht:100%;
+width: 100%;
 }
 
+/*navbar*/
+.navbar_content, .navbar_search {
+display: flex;
+justify-content: center;
+padding: 0;
+}
+
+.navbar_wraper  {
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+
+
+.navbar_content{
+background: linear-gradient( #8a8a8a 0%, #7c7c7c 25%, #5e5e5e 50%, #646464 75%, #727272 100%);
+border-color:#595959;
+margin:0;
+height: 32px;
+border-width:.2px;
+border-radius: 5px;
+list-style: none;
+}
+
+#navbar_apple{
+border-style: solid;
+border-color:red;
+border-width:1px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+#navbar_store, #navbar_mac, #navbar_ipod, #navbar_iphone, #navbar_ipad, #navbar_itunes, #navbar_support{
+border-style: solid;
+border-width:1px;
+border-color:red;
+border-width:1px;
+}
+
+li#navbar_apple:hover{
+background:  linear-gradient( #616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+
+li#navbar_store:hover, li#navbar_mac:hover, li#navbar_ipod:hover, li#navbar_iphone:hover, li#navbar_ipad:hover, li#navbar_itunes:hover, li#navbar_support:hover{
+background:  linear-gradient( #616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
+}
+
+
+a#link_apple{
+background: url(images/globalnav_text.png) no-repeat 50% 0;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+
+}
+
+a#link_store{
+background: url(images/globalnav_text.png) no-repeat 50% 14%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+}
+
+a#link_mac{
+background: url(images/globalnav_text.png) no-repeat 50% 27.5%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+a#link_ipod{
+background: url(images/globalnav_text.png) no-repeat 50% 42%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+a#link_iphone{
+background: url(images/globalnav_text.png) no-repeat 50% 56.5%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+a#link_ipad{
+background: url(images/globalnav_text.png) no-repeat 50% 71%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+a#link_itunes{
+background: url(images/globalnav_text.png) no-repeat 50% 85.4%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+a#link_support{
+background: url(images/globalnav_text.png) no-repeat 50% 99.5%;
+color: rgba(0, 0, 0, 0);
+width: 102px;
+height: 30px;
+display:inline-block;
+border-radius: 5px;
+}
+
+li#navbar_searchbox{
+  list-style: none;
+}
+
+#sp-searchtext{
+background: url(images/globalsearch_bg.png);
+font-family:Arial, FontAwesome;
+color:white;
+}
+
+.search{
+padding-top: 3px;
+}
+
+/*Main content*/
+
+
 /* main wraper*/
-div.head_wraper{
+div.head_wrapper{
 background-image: url(images/your_verse_hero.jpg) ;
 background-position-y: bottom;
-width: 1440px;
+background-size: 100%;
+background-repeat: no-repeat;
 height: 538px;
+min-width: 1000px;
 }
 
 /*promos aside */
+.aside_wrapper{
+min-width: 1000px;
 
+}
 #promos{
 display: flex;
 list-style-type: none;
@@ -23,27 +177,21 @@ list-style-type: none;
 
 
 #iphone_5s{
-/*background-image: url(images/promo_iphone5s.jpg);
-background-repeat: no-repeat;*/
-height: 200px;
+width: 99.9%
 }
 
 #iphone_5c{
-/*background-image: url(images/promo_iphone5c.jpg);
-background-repeat: no-repeat;*/
-height: 200px;
+width: 99.9%
+
 }
 
 #iphone_birthday{
-/*background-image: url(images/promo_30_years.jpg);
-background-repeat: no-repeat;*/
-height: 200px;
+width: 99.9%
 }
 
 #suppliers{
-/*background-image: url(images/promo_supplier_responsibility.jpg);
-background-repeat: no-repeat;*/
-height: 200px;
+
+width: 99.9%
 }
 
 /*footer*/
@@ -59,4 +207,12 @@ list-style-type: none;
 #footer_nav>li{
 margin: 3px;
 list-style-type: none;
+}
+
+#uno{
+  width: 50%
+}
+
+#dos{
+  width:50%
 }

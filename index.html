@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-
 <html >
 <head>
+  <link rel="stylesheet" href="reset.css" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="head_wraper">
-    <nav>
-      <list>
-        <li> apple</li>
-        <li> store</li>
-        <li> mac</li>
-        <li> ipod</li>
-        <li> iphone</li>
-        <li> ipad</li>
-        <li> itunes</li>
-        <li> support</li>
-        <li> search box</li>
-      <list>
+  <div class="head_wrapper">
+    <nav class="navbar_wraper">
+      <ul class="navbar_content">
+        <li id="navbar_apple"><a id="link_apple"  href="#"> apple </a></li>
+        <li id="navbar_store"><a id="link_store" href="#">Store</a></li>
+        <li id="navbar_mac"><a id="link_mac" href="#">Mac</a></li>
+        <li id="navbar_ipod"><a  id="link_ipod" href="#">iPod</a></li>
+        <li id="navbar_iphone" ><a id="link_iphone" href="#">iPhone</a></li>
+        <li id="navbar_ipad"><a id="link_ipad" href= "#">iPad</a></li>
+        <li id="navbar_itunes"><a  id="link_itunes" href="#">iTunes</a></li>
+        <li id="navbar_support"><a  id="link_support" href="#">Support</a></li>
+        <li id="navbar_searchbox">
+          <div class="navbar_search">
+            <form action="#" method="post" class="search" id="g-search">
+              <div class="sp-label">
+                <label for="sp-searchtext"></label>
+                <input type="text" name="q" id="sp-searchtext" placeholder="&#xF002;" />
+              </div>
+            </form>
+          </div>
+        </li>
+      </ul>
     </nav>
     <header>
-      <h1>What will your search be?</h1>
-        <h2>Everyone has something to share...</h2>
-        <h3>Verse film</h3>
+      <h1 class="title"><a href="#"><img src="images/your_verse_title_small.png" width="980" height="104" alt="What will your verse be?"/></a></h1>
+        <h2 class="title"><a class="title" href="#"><img  src="images/your_verse_subhead_small.png" width="980" height="82" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story."/></a></h2>
+        <div class="film"><a href="#"><img class="verse_be" src="images/cta_your_verse_27pt.png" width="980" height="112" alt="Watch the “Your Verse” film and explore the stories"/></a></div>
     </header>
   </div>
-  <aside>
+  <aside class="aside_wrapper">
     <ul id="promos">
-      <li id="iphone_5s"> <img src="images/promo_iphone5s.jpg" alt="iphone 5s"></li>
-      <li id="iphone_5c"><img src="images/promo_iphone5c.jpg" alt="iphone 5c"></li>
-      <li id="iphone_birthday"><img src="images/promo_30_years.jpg" alt="30 years Mac birdthday"></li>
-      <li id="suppliers"><img src="images/promo_supplier_responsibility.jpg" alt="suppliers responsability"></li>
+      <li> <img id="iphone_5s" src="images/promo_iphone5s.jpg" alt="iphone 5s"></li>
+      <li ><img id="iphone_5c" src="images/promo_iphone5c.jpg" alt="iphone 5c"></li>
+      <li ><img id="iphone_birthday"src="images/promo_30_years.jpg" alt="30 years Mac birdthday"></li>
+      <li ><img id="suppliers" src="images/promo_supplier_responsibility.jpg" alt="suppliers responsability"></li>
     </ul>
   </aside>
   <footer>
