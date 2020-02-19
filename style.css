@@ -25,7 +25,7 @@ padding: 0;
 .navbar_wraper  {
 display: flex;
 justify-content: center;
-padding-top: 100px;
+padding-top: 130px;
 }
 
 
@@ -152,6 +152,16 @@ padding-top: 3px;
 }
 
 /*Main content*/
+.title{
+text-align: center;
+}
+
+.film{
+text-align: center;
+height:32px;
+overflow: hidden;
+margin-top: 25px;
+}
 
 
 /* main wraper*/
@@ -172,9 +182,11 @@ min-width: 1000px;
 #promos{
 display: flex;
 list-style-type: none;
-
 }
 
+#promos li{
+width:25%;
+}
 
 #iphone_5s{
 width: 99.9%
@@ -195,24 +207,40 @@ width: 99.9%
 }
 
 /*footer*/
+footer{
+  font-size: .8334em;
+}
+
 #footer_main{
 list-style-type: none;
 }
 
-#footer_nav{
+#nav_footer{
 display: flex;
 list-style-type: none;
 }
 
-#footer_nav>li{
-margin: 3px;
-list-style-type: none;
+.footer_up{
+display:flex;
 }
 
-#uno{
-  width: 50%
+.footer_down{
+display: flex;
 }
 
-#dos{
-  width:50%
+#copyright{
+display: flex;
+}
+
+.nav_address{
+margin-right: 25px;
+}
+
+.footer_nav{
+margin-left: 25px;
+}
+
+#nav_footer li{
+margin:5px;
+
 }
