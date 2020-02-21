@@ -56,7 +56,7 @@ li#navbar_store:hover, li#navbar_mac:hover, li#navbar_ipod:hover, li#navbar_ipho
 }
 
 a#link_apple{
-  background: url(images/globalnav_text.png) no-repeat 50% 0;
+  background: url(images/globalnav_text.png) no-repeat 50% 2px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -64,7 +64,7 @@ a#link_apple{
 }
 
 a#link_store{
-  background: url(images/globalnav_text.png) no-repeat 50% 14%;
+  background: url(images/globalnav_text.png) no-repeat 50% -28px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -72,7 +72,7 @@ a#link_store{
 }
 
 a#link_mac{
-  background: url(images/globalnav_text.png) no-repeat 50% 27.5%;
+  background: url(images/globalnav_text.png) no-repeat 50% -58px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -81,7 +81,7 @@ a#link_mac{
 }
 
 a#link_ipod{
-  background: url(images/globalnav_text.png) no-repeat 50% 42%;
+  background: url(images/globalnav_text.png) no-repeat 50% -88px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -90,7 +90,7 @@ a#link_ipod{
 }
 
 a#link_iphone{
-  background: url(images/globalnav_text.png) no-repeat 50% 56.5%;
+  background: url(images/globalnav_text.png) no-repeat 50% -118px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -99,7 +99,7 @@ a#link_iphone{
 }
 
 a#link_ipad{
-  background: url(images/globalnav_text.png) no-repeat 50% 71%;
+  background: url(images/globalnav_text.png) no-repeat 50% -148px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -108,7 +108,7 @@ a#link_ipad{
 }
 
 a#link_itunes{
-  background: url(images/globalnav_text.png) no-repeat 50% 85.4%;
+  background: url(images/globalnav_text.png) no-repeat 50% -178px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -117,7 +117,7 @@ a#link_itunes{
 }
 
 a#link_support{
-  background: url(images/globalnav_text.png) no-repeat 50% 99.5%;
+  background: url(images/globalnav_text.png) no-repeat 50% -208px;
   color: rgba(0, 0, 0, 0);
   width: 102px;
   height: 36px;
@@ -147,12 +147,14 @@ li#navbar_searchbox{
   border:none;
 }
 
-i{
-  font-family: "Font Awesome 5 Free"! important;
-  margin:0 15px 0 15px;
-  padding-top:5px;
-  color:white;
+#input_search:focus {
+width:250px;
+background: url(images/globalsearch_field.png) 0% 100% no-repeat;
+margin-left: 122px;
+margin-top:1px;
+text-indent:20px;
 }
+
 
 form#g-search{
   /*background: url(images/globalsearch_field.png) 0 0 no-repeat;
@@ -290,7 +292,6 @@ footer a:hover {
 }
 
 #copyright li{
-  padding: 0 5px 0 5px;
   border-right: 1px solid #ccc;
 }
 
