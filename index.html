@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="reset.css" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 </head>
 <body>
   <div class="head_wrapper">
@@ -22,8 +22,7 @@
           <div class="navbar_search">
             <form action="#" method="post" class="search" id="g-search">
               <div class="sp-label">
-                <label for="sp-searchtext"></label>
-                <input type="text" name="q" id="sp-searchtext" placeholder="&#xF002;" />
+                <input type="text" id="input_search" value="">
               </div>
             </form>
           </div>
@@ -32,8 +31,8 @@
     </nav>
     <header>
       <h1 class="title"><a href="#"><img src="images/your_verse_title_small.png" width="980" height="104" alt="What will your verse be?" style="margin-bottom:-25px"/></a></h1>
-        <h2 class="title"><a class="title" href="#"><img  src="images/your_verse_subhead_small.png" width="980" height="82" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story."/></a></h2>
-        <div class="film"><a href="#"><img class="verse_be" src="images/cta_your_verse_27pt.png" width="980px" height="64px" alt="Watch the “Your Verse” film and explore the stories"/></a></div>
+      <h2 class="title"><a class="title" href="#"><img  src="images/your_verse_subhead_small.png" width="980" height="82" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story."/></a></h2>
+      <div class="film"><a href="#"><img class="verse_be" src="images/cta_your_verse_27pt.png" width="980px" height="64px" alt="Watch the “Your Verse” film and explore the stories"/></a></div>
     </header>
   </div>
   <aside class="aside_wrapper">
@@ -45,33 +44,42 @@
     </ul>
   </aside>
   <footer>
-    <ul id="footer_main">
-      <div class="footer_up">
-      <li class="nav_address" ><address>Shop the <a href="#">Apple Online Store </a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.</address></li>
-      <li class="footer_nav">
-          <ul id="nav_footer">
-              <li><a href="#">Site Map</a></li>
-              <li><a href="#">Hot News</a></li>
-              <li><a href="#">RSS Feeds</a></li>
-              <li><a href="#">Media Info</a></li>
-              <li><a href="#">Environment</a></li>
-              <li><a href="#">Job Opportunities</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#"></a> <img src="images/usa.png"></li>
+
+    <div class="footer_up">
+      <ul id="footer_main">
+        <li class="nav_address" >
+          <ul id="pruba">
+            <li id="uno">  <address>Shop the <a href="#">Apple Online Store </a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.</address></li>
+            <li id="dos">
+              <ul id="copyright">
+                <li> Copyright © 2014 Apple Inc. All rights reserved.</li>
+                <li> <a href="#">Terms of use</a></li>
+                <li> <a href="#"> Privacy Policy</a></li>
+              </ul>
+            </li>
           </ul>
-      </li>
-    </ul>
-      </div>
-      <div class="footer_down">
-    <ul id="copyright">
-      <li> Copyright © 2014 Apple Inc. All rights reserved.</li>
-      <li> Terms of use</li>
-      <li> Privacy Policy</li>
-    </ul>
-      </div>
-    </div>
-  </footer>
-</body>
+        </li>
 
 
-</html>
+
+
+        <li class="footer_nav">
+          <ul id="nav_footer">
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Hot News</a></li>
+            <li><a href="#">RSS Feeds</a></li>
+            <li><a href="#">Media Info</a></li>
+            <li><a href="#">Environment</a></li>
+            <li><a href="#">Job Opportunities</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#"> <img  src="images/usa.png"></a ></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+
+
+  </html>
