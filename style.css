@@ -148,6 +148,7 @@ li#navbar_searchbox{
   margin-top:1px;
   text-indent:20px;
   width:250px;
+  outline:none;
 }
 
 #sp-searchtext{
