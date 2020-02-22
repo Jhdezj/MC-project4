@@ -1,7 +1,8 @@
 # MC-project4-Apple
 
 ## Microverse HTML/CSS project 4 - Individual
-Individual Project to create apple clone page, using basic HTML and CSS.
+Individual Project to create an Apple clone page, using basic HTML and CSS.
+
 ![screenshot](images/MC-project4-Apple_Screen-shot.png)
 
 #### I. The main focus of the project was the creation of a standard main page by using background images and gradients.
@@ -10,7 +11,7 @@ Individual Project to create apple clone page, using basic HTML and CSS.
 
 #### III. The main areas of the project can be divided as follows:
 
-  ###### &nbsp; A Background Section
+  ###### &nbsp; The background section
   It was created by using a background picture, and has links to some promo articles.
 
   ###### &nbsp; The navbar section
@@ -19,7 +20,7 @@ Individual Project to create apple clone page, using basic HTML and CSS.
   ###### &nbsp; The promo section
   It contains links to the site promo sections. When passing the mouse over they have the effect of highlighting with a different background.
 
-  ###### &nbsp; The footer sections
+  ###### &nbsp; The footer section
   It has the relevant contact links and the copyright notice.  
 
 ## Built With
