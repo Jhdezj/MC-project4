@@ -1,230 +1,21 @@
 
-/*general layout*/
-a{
+/* general layout */
+a {
   text-decoration: none;
 }
 
-body{
+body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   margin: 0 auto;
   max-width: 1500px;
   width: 100%;
 }
 
-/*navbar*/
-.navbar_content, .navbar_search {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-}
-
-.navbar_wraper  {
-  display: flex;
-  justify-content: center;
-  padding-top: 130px;
-}
-
-.navbar_content{
-  background: linear-gradient( #8a8a8a 0%, #7c7c7c 25%, #5e5e5e 50%, #646464 75%, #727272 100%);
-  border-color:#595959;
-  border-radius: 5px;
-  border-width:.2px;
-  height: 36px;
-  list-style: none;
-  margin:0;
-}
-
-#navbar_apple{
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-#navbar_store, #navbar_mac, #navbar_ipod, #navbar_iphone, #navbar_ipad, #navbar_itunes, #navbar_support, #navbar_searchbox
-{
-  border-left-color: #5a5a5a;
-  border-left-width:thin;
-  border-style: solid;
-  margin:auto;
-}
-
-#navbar_apple:hover{
-  background:  linear-gradient( #616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-#navbar_store:hover, li#navbar_mac:hover, li#navbar_ipod:hover, li#navbar_iphone:hover, li#navbar_ipad:hover, li#navbar_itunes:hover, li#navbar_support:hover{
-  background:  linear-gradient( #616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
-}
-
-#navbar_apple a{
-  background: url(images/globalnav_text.png) no-repeat 50% 2px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_store a{
-  background: url(images/globalnav_text.png) no-repeat 50% -28px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_mac a{
-  background: url(images/globalnav_text.png) no-repeat 50% -58px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_ipod a{
-  background: url(images/globalnav_text.png) no-repeat 50% -88px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_iphone a{
-  background: url(images/globalnav_text.png) no-repeat 50% -118px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_ipad a{
-  background: url(images/globalnav_text.png) no-repeat 50% -148px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_itunes a{
-  background: url(images/globalnav_text.png) no-repeat 50% -178px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-#navbar_support a{
-  background: url(images/globalnav_text.png) no-repeat 50% -208px;
-  color: rgba(0, 0, 0, 0);
-  display:inline-block;
-  height: 36px;
-  width: 102px;
-}
-
-li#navbar_searchbox{
-  list-style: none;
-  height: 36px;
-  width:164px;
-}
-
-.navbar_search{
-  background: url(images/globalsearch_field.png) 0 0 no-repeat;
-  margin-left:10px;
-  margin-top:7px;
-  padding-bottom: 1px;
-  padding-right: 25px;
-}
-
-#input_search{
-  background: url(images/globalsearch_field.png) 50% 0 no-repeat;
-  border:none;
-  margin-left: 30px;
-  width: 100px;
-}
-
-#input_search:focus {
-  background: url(images/globalsearch_field.png) 0% 100% no-repeat;
-  margin-left: 122px;
-  margin-top:1px;
-  text-indent:20px;
-  width:250px;
-  outline:none;
-}
-
-#sp-searchtext{
-  height: 18px;
-  width:135px;
-}
-
-/*Main content*/
-.title{
-  text-align: center;
-}
-
-.film{
-  height:32px;
-  margin-top: 25px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.film:hover{
-  background:url(images/cta_your_verse_27pt.png) 50% 100% no-repeat;
-}
-
-/* main wraper*/
-.head_wrapper{
-  background-image: url(images/your_verse_hero.jpg) ;
-  background-position-y: bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 538px;
-  min-width: 1000px;
-}
-
-/*promos aside */
-.aside_wrapper{
-  min-width: 1000px;
-}
-
-#promos{
-  display: flex;
-  list-style-type: none;
-}
-
-#promos li{
-  width:25%;
-}
-
-#iphone_5s{
-  width: 99.9%
-}
-
-#iphone_5c{
-  width: 99.9%
-}
-
-#iphone_birthday{
-  width: 99.9%
-}
-
-#suppliers{
-
-  width: 99.9%
-}
-
-/*footer*/
-footer{
-  color: #6e6e6e;
-  font-size: .8334em;
-  min-width: 1000px;
-}
-
-footer a{
+footer a {
   color: #08c;
 }
 
-footer a:visited{
+footer a:visited {
   color: #08c;
 }
 
@@ -232,73 +23,282 @@ footer a:hover {
   text-decoration: underline;
 }
 
-#footer_main{
+/* navbar */
+.navbar_content,
+.navbar_search {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar_wraper {
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+}
+
+.navbar_content {
+  background: linear-gradient(#8a8a8a 0%, #7c7c7c 25%, #5e5e5e 50%, #646464 75%, #727272 100%);
+  border-color: #595959;
+  border-radius: 5px;
+  border-width: 0.2px;
+  height: 36px;
+  list-style: none;
+  margin: 0;
+}
+
+#navbar_apple {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#navbar_store,
+#navbar_mac,
+#navbar_ipod,
+#navbar_iphone,
+#navbar_ipad,
+#navbar_itunes,
+#navbar_support,
+#navbar_searchbox {
+  border-left-color: #5a5a5a;
+  border-left-width: thin;
+  border-style: solid;
+  margin: auto;
+}
+
+#navbar_apple:hover {
+  background: linear-gradient(#616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#navbar_store:hover,
+#navbar_mac:hover,
+#navbar_ipod:hover,
+#navbar_iphone:hover,
+#navbar_ipad:hover,
+#navbar_itunes:hover,
+#navbar_support:hover {
+  background: linear-gradient(#616161 0%, #525252 25%, #4a4a4a 50%, #3b3b3b 50%, #3e3e3e 75%, #464646 100%);
+}
+
+#navbar_apple a,
+#navbar_store a,
+#navbar_mac a,
+#navbar_ipod a,
+#navbar_iphone a,
+#navbar_ipad a,
+#navbar_itunes a,
+#navbar_support a {
+  background: url(images/globalnav_text.png);
+  background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 36px;
+  width: 102px;
+}
+
+#navbar_apple a {
+  background-position: 50% 2px;
+}
+
+#navbar_store a {
+  background-position: 50% -28px;
+}
+
+#navbar_mac a {
+  background-position: 50% -58px;
+}
+
+#navbar_ipod a {
+  background-position: 50% -88px;
+}
+
+#navbar_iphone a {
+  background-position: 50% -118px;
+}
+
+#navbar_ipad a {
+  background-position: 50% -148px;
+}
+
+#navbar_itunes a {
+  background-position: 50% -178px;
+}
+
+#navbar_support a {
+  background-position: 50% -208px;
+}
+
+#navbar_searchbox {
+  height: 36px;
+  list-style: none;
+  width: 164px;
+}
+
+.navbar_search,
+#searchbox,
+#input_search {
+  background: url(images/globalsearch_field.png) 0 0 no-repeat;
+}
+
+.navbar_search {
+  margin-left: 10px;
+  margin-top: 7px;
+  padding-bottom: 1px;
+  padding-right: 25px;
+}
+
+#searchbox {
+  border-radius: 35px;
+  height: 18px;
+  width: 135px;
+}
+
+#input_search {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  border: none;
+  margin-left: 30px;
+  width: 100px;
+}
+
+#input_search:focus {
+  background: url(images/globalsearch_field.png) 0 100% no-repeat;
+  margin-left: 122px;
+  margin-top: 1px;
+  outline: none;
+  text-indent: 20px;
+  width: 250px;
+}
+
+#sp-searchtext {
+  height: 18px;
+  width: 135px;
+}
+
+/* Main content */
+.title {
+  text-align: center;
+}
+
+.film {
+  height: 32px;
+  margin-top: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.film:hover {
+  background: url(images/cta_your_verse_27pt.png) 50% 100% no-repeat;
+}
+
+/* main wraper */
+.head_wrapper {
+  background-image: url(images/your_verse_hero.jpg);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 538px;
+  min-width: 1000px;
+}
+
+/* promos aside */
+.aside_wrapper {
+  min-width: 1000px;
+}
+
+#promos {
   display: flex;
   list-style-type: none;
-  margin:auto;
+}
+
+#promos li {
+  width: 25%;
+}
+
+#iphone_5s {
+  width: 99.9%;
+}
+
+#iphone_5c {
+  width: 99.9%;
+}
+
+#iphone_birthday {
+  width: 99.9%;
+}
+
+#suppliers {
+  width: 99.9%;
+}
+
+/* footer */
+footer {
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  min-width: 1000px;
+}
+
+#footer_main {
+  display: flex;
+  list-style-type: none;
+  margin: auto;
   padding-top: 1.5em;
   width: 100%;
 }
 
-#nav_footer{
+#nav_footer {
   display: flex;
   list-style-type: none;
 }
 
-.footer_up{
-  display:flex;
-}
-
-.footer_down{
+.footer_up {
   display: flex;
 }
 
-#copyright{
+.footer_down {
+  display: flex;
+}
+
+#copyright {
   display: flex;
   margin-right: 65px;
   padding-top: 1.2em;
 }
 
-.footer_nav{
-  width:54%;
+.footer_nav {
+  width: 54%;
 }
 
-.nav_address{
+.nav_address {
   margin-right: 50px;
-  width:50%;
+  width: 50%;
 }
 
-
-#address_visit, #copyright_notice{
-  float:right;
+#address_visit,
+#copyright_notice {
+  float: right;
 }
 
-
-#nav_footer li{
+#nav_footer li {
   border-right: 1px solid #ccc;
   padding: 0 5px 0 5px;
 }
 
-#nav_footer li:last-child{
-  border-right: none;
-}
-
-#copyright li{
+#copyright li {
   border-right: 1px solid #ccc;
   padding: 0 5px 0 5px;
 }
 
-#copyright li:last-child{
+#nav_footer li:last-child {
   border-right: none;
 }
 
-#copyright li:first-child{
+#copyright li:last-child {
   border-right: none;
 }
 
-#searchbox{
-  background: url(images/globalsearch_field.png) 0 0 no-repeat;
-  border-radius: 35px;
-  height: 18px;
-  width:135px;
+#copyright li:first-child {
+  border-right: none;
 }
