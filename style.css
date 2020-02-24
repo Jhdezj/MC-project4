@@ -182,6 +182,22 @@ footer a:hover {
   text-align: center;
 }
 
+#verse_be {
+  height: 104px;
+  margin-bottom: -25px;
+  width: 980px;
+}
+
+#verse_share {
+  height: 82px;
+  width: 980px;
+}
+
+#verse_watch {
+  height: 64px;
+  width: 980px;
+}
+
 .film {
   height: 32px;
   margin-top: 25px;
@@ -245,7 +261,6 @@ footer {
   list-style-type: none;
   margin: auto;
   padding-top: 1.5em;
-  width: 100%;
 }
 
 #nav_footer {
@@ -263,22 +278,20 @@ footer {
 
 #copyright {
   display: flex;
-  margin-right: 65px;
   padding-top: 1.2em;
 }
 
-.footer_nav {
-  width: 54%;
+address {
+  font-style: normal;
 }
 
 .nav_address {
-  margin-right: 50px;
-  width: 50%;
+  width: 500px;
 }
 
 #address_visit,
 #copyright_notice {
-  float: right;
+  float: left;
 }
 
 #nav_footer li {
@@ -288,7 +301,6 @@ footer {
 
 #copyright li {
   border-right: 1px solid #ccc;
-  padding: 0 5px 0 5px;
 }
 
 #nav_footer li:last-child {
@@ -301,4 +313,5 @@ footer {
 
 #copyright li:first-child {
   border-right: none;
+  margin-right: 3px;
 }
