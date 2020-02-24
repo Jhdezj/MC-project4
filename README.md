@@ -29,7 +29,7 @@ Individual Project to create an Apple clone page, using basic HTML and CSS.
 - Code Editors- Atom
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project4-Apple/efc3f6b154873cf55fd079269fef75b7a7a3f0a2/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project4-Apple/f1605181c49d38012b381a65180a1602f09c7a67/index.html)
 
 
 ## Author
